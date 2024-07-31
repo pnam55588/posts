@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchPosts, addPost, updatePost, deletePost } from '../api/posts'; 
 import PostList from '../components/postlist/PostList';
 
-function App() {
+function Posts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Posts;
